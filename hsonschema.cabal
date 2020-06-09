@@ -1,0 +1,17 @@
+name:                hsonschema
+version:             0.1.0.0
+cabal-version:       >=1.10
+build-type:          Simple
+
+executable hsonschema
+  main-is:             Main.hs
+  hs-source-dirs: app
+  other-modules: HsonSchema
+  build-depends:       base >=4.14 && <4.15
+                     , aeson == 1.5.*
+                     , bytestring >=0.10.10 && <0.11
+                     , text
+                     , unordered-containers
+                     , vector
+                     , aeson-pretty
+  default-language:    Haskell2010
