@@ -7,7 +7,8 @@ It is not 100% conforming to schema standard.
 To build just issue commands:
 
 ```shell
-cabal configure --Optionally
+#Optionally
+cabal configure
 cabal build
 cabal run
 ```
